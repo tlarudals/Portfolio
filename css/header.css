@@ -37,7 +37,6 @@ header {
     background: -webkit- transparent;
     background: -ms- transparent;
     background: transparent;
-    /*    outline: 2px solid lime;*/
 }
 
 
@@ -45,19 +44,12 @@ header {
 
 
 header .header_inner {
-
-    /*
-    width: 90%;
-    max-width: 1280px;
-*/
     width: 100%;
     max-width: 1320px;
     padding: 0 20px;
     box-sizing: border-box;
-
     height: 100%;
     margin: 0 auto;
-    /*    outline: 2px solid lime;*/
 
 }
 
@@ -66,7 +58,6 @@ header .header_inner {
     margin-top: 22px;
     width: 170px;
     height: 43px;
-    /*    outline: 2px solid lime;*/
 }
 
 .header_inner .logo a {
@@ -87,7 +78,6 @@ header .header_inner {
     text-align: center;
     width: 640px;
     height: 100%;
-/*    outline: 2px solid lime;*/
 }
 
 
@@ -101,14 +91,8 @@ nav .menu > li {
     height: 60px;
     margin-top: 30px;
     position: relative;
-/*        outline: 2px solid red;*/
 }
 
-/*
-nav .menu > li:hover > a {
-    color: #75D701;
-}
-*/
 
 nav .menu > li > a {
     font-weight: 100;
@@ -129,7 +113,6 @@ nav .menu > li > a {
     box-sizing: border-box;
     margin: 0 auto;
     height: 260px;
-/*    outline: 2px solid lime;*/
     background:transparent;
     position: relative;
 
@@ -146,9 +129,7 @@ nav .menu > li > a {
     position: absolute;
     width: 50%;
     left:50%;
-/*    outline: 2px solid blue;*/
     height: 100%;
-/*    z-index: 1;*/
 }
 .smenu_wrap ul li{
     width: 160px;
@@ -168,42 +149,7 @@ nav .menu > li > a {
 
 
 
-/*
-.menu .sub {
-    width: 160px;
-    background-color: #333;
-    position: absolute;
-    left: 0;
-    top: 60px;
-    display: none;
-}
-
-.menu .sub li {
-    line-height: 2;
-    background-color: #333;
-    color:#fff;
-}
-
-.menu .sub li:hover a {
-    font-weight: bold;
-    color: #75D701;
-    text-decoration: underline;
-
-}
-
-.menu .sub a {
-    color: #fff;
-    display: block;
-}
-*/
-
-
-
-
-
-
 header.on {
-    /*    background-color: #fff;*/
     background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -215,17 +161,3 @@ header.on nav .menu > li:hover a {
     color: #00512a;
 }
 
-/*
-header.on .menu .sub li {
-    line-height: 2;
-    background-color: #fff;
-}
-
-header.on .menu .sub li:hover a {
-    color: #00512a;
-}
-
-header.on .menu .sub a {
-    color: #333;
-}
-*/

@@ -2,10 +2,6 @@
 
 /*sub2_1*/
 
-section {
-/*    margin-top: 90px;*/
-/*   padding-bottom: 60px;*/
-}
 
 
 /*brand shop*/
@@ -21,7 +17,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-    /*    outline: 2px solid lime;*/
     color: #fff;
 }
 
@@ -78,7 +73,6 @@ section .sub_menu {
     background: url(../img/sub1_1/choice.png) no-repeat;
     background-position: center bottom;
     font-weight: bold;
-    /*    outline: 2px solid lime;*/
 }
 
 .sub_menu .sub_menu_inner div.on a {
@@ -106,7 +100,6 @@ section .sub_menu {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-    /*    outline: 2px solid blue;*/
 }
 
 .pi_inner>h2{
@@ -116,7 +109,6 @@ section .sub_menu {
 
 .pi_container{
     width: 100%;
-/*    outline: 2px solid red;*/
 }
 
 
@@ -155,7 +147,6 @@ section .sub_menu {
     width: 370px;
     height: 260px;
     display: block;
-/*    outline: 2px solid blue;*/
 }
 
 .pi_container li a img{
@@ -220,6 +211,5 @@ section .sub_menu {
 .pi_container li img {
     width: 370px;
     height: 260px;
-    display: block;
-    /*    outline: 2px solid blue;*/
+    display: block;  
 }

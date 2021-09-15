@@ -2,10 +2,6 @@
 
 /*sub4_1*/
 
-section {
-/*    margin-top: 90px;*/
-/*    margin-bottom: 50px;*/
-}
 
 /*recruitment*/
 .recruitment{
@@ -79,7 +75,6 @@ section .sub_menu {
     background: url(../img/sub1_1/choice.png) no-repeat;
     background-position: center bottom;
     font-weight: bold;
-/*    outline: 2px solid lime;*/
 }
 .sub_menu .sub_menu_inner div.on a{
     color:#00512a;
@@ -145,12 +140,8 @@ section .sub_menu {
 
 .career_box .career_title{
     font-size:22px;
-/*    font-weight: bold;*/
-/*    color:#00512a;*/
     color:#29FF8B;
     position: relative;
-/*    padding-bottom: 0px;*/
-/*    outline: 2px solid lime;*/
 }
 
 .career_title:after{
@@ -162,12 +153,9 @@ section .sub_menu {
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     top:43px;
-/*    bottom:0px;*/
     width: 80%;
     height: 2px;
-    background-color: #ddd;
-    
-    
+    background-color: #ddd;  
     
 }
 

@@ -2,9 +2,6 @@
 
 /*sub1_3*/
 
-section {
-/*    margin-top: 90px;*/
-}
 
 section .intro {
     width: 100%;
@@ -73,7 +70,6 @@ section .sub_menu {
     background: url(../img/sub1_1/choice.png) no-repeat;
     background-position: center bottom;
     font-weight: bold;
-/*    outline: 2px solid lime;*/
 }
 .sub_menu .sub_menu_inner div.on a{
     color:#00512a;
@@ -100,7 +96,6 @@ section .sub_menu {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-    /*        outline: 2px solid lime;*/
 }
 
 .history_inner > h2 {
@@ -124,7 +119,6 @@ section .sub_menu {
 
 .history_sel_wrap.on {
     width: 100%;
-    /*    background-color: blue;*/
     position: fixed;
     top: 0px;
     left: 50%;    
@@ -142,7 +136,6 @@ section .sub_menu {
     height: 62px;
     margin: 0 auto;
     margin-top: 50px;
-    /*    outline: 2px solid red;*/
 }
 
 
@@ -157,7 +150,6 @@ section .sub_menu {
     font-size: 18px;
     margin-right: 20px;
     box-sizing: border-box;
-    /*    border: 1px solid lime;*/
 }
 
 .history_sel_wrap .history_sel p.active {
@@ -167,7 +159,6 @@ section .sub_menu {
 }
 
 .history_sel_wrap .history_sel p.active a {
-/*    color: #75D701;*/
     color: #fff;
 }
 
@@ -198,10 +189,6 @@ section .sub_menu {
 
 
 .hs_txt_color {
-/*
-    color: #75D701;
-    color: #77AF9C;
-*/
     color: #5CAB7D;
     font-weight: bold;
 }
@@ -222,7 +209,6 @@ section .sub_menu {
 .history_year_wrap .hs_left_box {
     position: relative;
     left: 0;
-    /*    outline: 2px solid blue;*/
     width: 50%;
     text-align: right;
     padding-right: 30px;
@@ -252,8 +238,6 @@ section .sub_menu {
     padding-left: 30px;
     box-sizing: border-box;
     margin-top: 20px;
-    /*    outline: 2px solid red;*/
-
 }
 
 .hs_right_box .hs_right_dot {

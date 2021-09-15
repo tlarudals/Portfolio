@@ -42,20 +42,6 @@
     <link rel="stylesheet" href="/css/footer.css">
 
 
-
-
-
-    <!--
-    <link rel="stylesheet" href="css/sub2_1_brand_allatme_detail.css">
-    <link rel="stylesheet" href="css/sub2_1_brand_allcut_detail.css">
-    <link rel="stylesheet" href="css/sub2_1_brand_earthtous_detail.css">
-    <link rel="stylesheet" href="css/sub2_1_brand_eyeclear_detail.css">
-    <link rel="stylesheet" href="css/sub2_1_brand_itall_detail.css">
-    <link rel="stylesheet" href="css/sub2_1_brand_lactofit_detail.css">
-    <link rel="stylesheet" href="css/sub2_1_brand_promega_detail.css">
-    <link rel="stylesheet" href="css/sub2_1_realman_detail.css">
--->
-
     <?
         if($pn=='sub2_1_allatme_3270_detail' || $pn=='sub2_1_allatme_lightly_detail' || $pn=='sub2_1_allatme_moist_detail' || $pn=='sub2_1_allatme_thin_detail'){
             echo '<link rel="stylesheet" href="css/sub2_1_brand_allatme_detail.css">';

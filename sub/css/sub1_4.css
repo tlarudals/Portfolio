@@ -2,9 +2,6 @@
 
 /*sub1_4*/
 
-section {
-/*    margin-top: 90px;*/
-}
 
 section .intro {
     width: 100%;
@@ -73,7 +70,6 @@ section .sub_menu {
     background: url(../img/sub1_1/choice.png) no-repeat;
     background-position: center bottom;
     font-weight: bold;
-/*    outline: 2px solid lime;*/
 }
 .sub_menu .sub_menu_inner div.on a{
     color:#00512a;
@@ -98,7 +94,6 @@ section .sub_menu {
     padding: 0 20px;
     box-sizing: border-box; 
     margin: 0 auto;
-/*    outline: 2px solid lime;*/
 }
 
 .location_inner h2{
@@ -107,7 +102,6 @@ section .sub_menu {
 
 .location_inner .lo_container{
     margin-top: 30px;
-/*    outline: 2px solid blue;*/
 }
 
 .lo_container .lo_wrap{
@@ -121,7 +115,6 @@ section .sub_menu {
 .lo_wrap .lo_box{
     margin-top: 30px;
     cursor: pointer;
-/*    outline: 2px solid lime;*/
     width: 440px;
 }
 
@@ -202,7 +195,6 @@ section .sub_menu {
     width: 750px;
     height: 510px;
     margin-left: 30px;
-/*    outline: 3px solid red;*/
 }
 
 .lo_map iframe{

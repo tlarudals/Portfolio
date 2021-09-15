@@ -2,10 +2,6 @@
 
 /*sub2_1_earthtous*/
 
-section {
-/*    margin-top: 90px;*/
-
-}
 
 
 /*brand shop*/
@@ -21,7 +17,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-/*    outline: 2px solid lime;*/
     color:#fff;
 }
 
@@ -54,9 +49,6 @@ section {
     margin: 0 auto;
     
 }
-.re_inner .re_container_earthtous{
-/*    outline: 2px solid blue;*/
-}
 
 
 .re_inner>.re_container_earthtous>p{
@@ -74,7 +66,6 @@ section {
 
 
 .re_inner .re_health{
-/*    outline: 2px solid lime;*/
     margin-top: 20px;
 }
 
@@ -84,7 +75,6 @@ section {
     height: 500px;
     padding: 0 40px;
     box-sizing: border-box;
-/*    outline: 2px solid lime;*/
 }
 
 
@@ -101,8 +91,7 @@ section {
 .brand_menu{
     width: 100%;
     height: 570px;
-   
-/*    outline: 2px solid blue;*/
+
 }
 
 .earthtous_bg{
@@ -116,7 +105,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-/*    outline: 2px solid lime;*/
 }
 
 .menu_inner .menu_logo{
@@ -138,12 +126,10 @@ section {
 }
 
 .menu_inner .menu_container_earthtous{
-/*    outline: 2px solid lime;*/
     width: 795px;
     margin: 0 auto;
     margin-top:80px;
     overflow: hidden;
-/*    overflow : hidden 현재 4개만 보여줌*/
     
 }
 
@@ -154,19 +140,13 @@ section {
 
 .menu_container_earthtous .menu_view .menu_box{
     float:left;
-/*    outline: 2px solid blue;*/
 }
 
 .menu_box>a{
     display: block;
 }
 
-/*
-.menu_box>a:hover .menu_img_box{
-    transform: rotate(-15deg);
-    transition: all 0.7s;
-}
-*/
+
 
 .menu_box .menu_img_box{
     width: 265px;
@@ -198,7 +178,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-/*    outline: 2px solid lime;    */
 }
 
 .pr_inner .pr_img_box{
@@ -206,7 +185,6 @@ section {
 }
 
 .pr_inner>h2{
-/*    outline: 2px solid lime;*/
     width: 963px;
     margin: 0 auto;
     margin-top: 30px;
@@ -216,7 +194,7 @@ section {
     font-size: 40px;
     border-top: 2px solid #ac8931;
     border-bottom: 2px solid #ac8931;
-    font-weight: 100;   
+    font-weight: 100;  
         
 }
 
@@ -234,7 +212,6 @@ section {
     float: left;
     width: 32%;
     height: 130px;
-/*    outline: 2px solid red;*/
 }
 .pr_container>div~div{
     margin-left: 2%;

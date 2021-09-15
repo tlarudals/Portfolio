@@ -3,11 +3,6 @@
 /*sub3_2*/
 
 
-section {
-/*    margin-top: 90px;*/
-/*    margin-bottom: 50px;*/
-}
-
 /*promotion*/
 
 section .promotion {
@@ -85,7 +80,6 @@ section .sub_menu {
     background: url(../img/sub1_1/choice.png) no-repeat;
     background-position: center bottom;
     font-weight: bold;
-/*    outline: 2px solid lime;*/
 }
 .sub_menu .sub_menu_inner div.on a{
     color:#00512a;
@@ -153,7 +147,6 @@ section .sub_menu {
 .cb_activity_lbox>p{
     font-size:24px;
     color:#3ab54a;
-/*    outline: 2px solid red;*/
     padding-left: 10px;
     box-sizing: border-box;
     position: relative;
@@ -266,17 +259,9 @@ section .sub_menu {
     width: 602px;
     background-color: rgba(255,255,255,0.5);
     padding: 70px;
-/*
-    opacity: 0;
-    transition: all 2s;
-    
-*/
     display: none;
 }
 
-.cb_txt_inner .cb_txt.on{
-/*    opacity: 1;*/
-}
 
 
 

@@ -4,7 +4,6 @@
 
 
 section {
-/*    margin-top: 90px;*/
     margin-bottom: 50px;
 }
 
@@ -80,7 +79,6 @@ section .sub_menu {
     background: url(../img/sub1_1/choice.png) no-repeat;
     background-position: center bottom;
     font-weight: bold;
-/*    outline: 2px solid lime;*/
 }
 .sub_menu .sub_menu_inner div.on a{
     color:#00512a;
@@ -119,7 +117,6 @@ section .sub_menu {
 .rm_inner .rm_seq{
     width: 100%;
     margin-top: 80px;
-/*    outline: 2px solid blue;*/
 }
 
 .rm_seq .rm_seq_box{    
@@ -250,7 +247,6 @@ section .sub_menu {
     width: 50%;
     height: 150px;
     margin-bottom: 50px;
-/*    outline: 2px solid blue;*/
 }
 .rm_step_box img{
     width: 100px;
@@ -260,9 +256,7 @@ section .sub_menu {
 .rm_step_box>div{
     float:left;
 }
-.rm_step_box>div:first-child{
-/*    outline: 2px solid lime;*/
-}
+
 .rm_step_box:after{
     content: "";
     display: block;
@@ -272,8 +266,7 @@ section .sub_menu {
 .rm_step_box .rm_step_txt{
     width: 400px;
     margin-left: 80px;
-/*    outline: 2px solid red;*/
-/*    margin-top: 100px;*/
+
 }
 
 .rm_step_txt>p:first-child{

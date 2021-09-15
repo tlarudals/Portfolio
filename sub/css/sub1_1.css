@@ -4,10 +4,6 @@
 
 
 /*intro*/
-section{
-/*    margin-top: 90px;*/
-}
-
 
 section .intro {
     width: 100%;
@@ -100,7 +96,6 @@ section .company_explain {
     background: url(../img/sub1_1/ce_gb.jpg) no-repeat center;
     background-size:cover;
     margin-top: 20px;
-    /*    outline: 2px solid red;*/
     opacity: 0;
     -webkit-transition: all 1s;
     -ms-transition: all 1s;
@@ -118,7 +113,6 @@ section .company_explain {
     box-sizing: border-box;
     margin: 0 auto;
     color: #333;
-    /*    outline: 2px solid lime;*/
 }
 
 .company_inner h2 {
@@ -162,7 +156,6 @@ section .safe_product {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-    /*    outline: 2px solid red;*/
     position: relative;
     top: 20px;
     left: 0;
@@ -197,7 +190,6 @@ section .safe_product {
     float: right;
     width: 50%;
     margin-top: -100px;
-    /*    outline: 2px solid lime;*/
     background-color: rgba(255,255,255,0.7);
     padding: 30px;
 

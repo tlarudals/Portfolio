@@ -39,7 +39,7 @@
 
             <li data-main="2" class="main3">
                 <div class="view_inner">
-                    <h2>Better Lifre through<br>
+                    <h2>Better Life through<br>
                         Better Medicine
                     </h2>
                     <p>종근단건강이 건강한 삶과<br>

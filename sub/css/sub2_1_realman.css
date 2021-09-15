@@ -2,10 +2,6 @@
 
 /*sub2_1_realman*/
 
-section {
-/*    margin-top: 90px;*/
-
-}
 
 
 /*brand shop*/
@@ -21,7 +17,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-/*    outline: 2px solid lime;*/
     color:#fff;
 }
 
@@ -53,7 +48,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-/*    outline: 2px solid lime;*/
 }
 
 .cf_inner>h2{
@@ -67,8 +61,7 @@ section {
     display: block;
     margin: 0 auto;
     margin-top: 40px;    
-    width: 800px;
-/*    outline: 2px solid blue;*/    
+    width: 800px; 
 }
 
 
@@ -86,9 +79,7 @@ section {
     max-width: 1100px;  
     padding: 0 20px;
     box-sizing: border-box;    
-    margin: 0 auto;
-/*    outline: 2px solid blue;*/
-    
+    margin: 0 auto;    
 }
 .re_inner .re_container_realman{
     float:left;
@@ -110,7 +101,6 @@ section {
 
 .re_container_realman .re_box_wrap_realman{
     margin-top: 25px;
-/*    outline: 2px solid lime;*/
 }
 .re_box_wrap_realman .re_box{
     float:left;
@@ -119,7 +109,6 @@ section {
 }
 .re_box_wrap_realman .re_box .re_ex{
     margin-top: 10px;
-/*    color:#2da9dc;*/
 }
 
 .re_box_wrap_realman .re_box:last-child{
@@ -141,7 +130,6 @@ section {
     float:left;
     margin-left: 70px;
     margin-top: 30px;
-/*    outline: 2px solid red;*/
 }
 
 .re_txt_realman>div{
@@ -164,9 +152,6 @@ section {
 .brand_menu{
     width: 100%;
     height: 570px;
-/*    background: url(../img/sub2_1/realman-bg.jpg) no-repeat center/cover;*/
-    
-/*    outline: 2px solid blue;*/
 }
 
 .realman_bg{
@@ -178,7 +163,6 @@ section {
     width: 90%;
     max-width: 1280px;
     margin: 0 auto;
-/*    outline: 2px solid lime;*/
 }
 
 .menu_inner .menu_logo{
@@ -200,12 +184,9 @@ section {
 }
 
 .menu_inner .menu_container_realman{
-/*    outline: 2px solid lime;*/
     width: 500px;
     margin: 0 auto;
-    overflow: hidden;
-/*    overflow : hidden 현재 4개만 보여줌*/
-    
+    overflow: hidden;    
 }
 
 .menu_container_realman .menu_view{
@@ -217,23 +198,16 @@ section {
 .menu_container_realman .menu_view .menu_box{
     float:left;
     margin-top: 66px;
-/*    outline: 2px solid blue;*/
 }
 
 .menu_box>a{
     display: block;
 }
 
-/*
-.menu_box>a:hover .menu_img_box{
-    transform: rotate(-15deg);
-    transition: all 0.7s;
-}
-*/
+
 
 .menu_box .menu_img_box{
     width: 500px;
-/*    outline: 2px solid blue;*/
 }
 .menu_box .menu_img_box img{
     width: 500px;
@@ -247,7 +221,6 @@ section {
     font-size: 18px;
     margin-left: -20px;
     margin-top: 20px;
-/*    outline: 2px solid red;*/
 }
 
 
@@ -265,7 +238,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-/*    outline: 2px solid lime;    */
 }
 
 .pr_inner .pr_img_box{
@@ -273,7 +245,6 @@ section {
 }
 
 .pr_inner>h2{
-/*    outline: 2px solid lime;*/
     width: 963px;
     margin: 0 auto;
     margin-top: 30px;
@@ -301,7 +272,6 @@ section {
     float: left;
     width: 32%;
     height: 120px;
-/*    outline: 2px solid red;*/
 }
 .pr_container>div~div{
     margin-left: 2%;

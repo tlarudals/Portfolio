@@ -2,11 +2,6 @@
 
 /*sub2_1_lactofit*/
 
-section {
-    /*    margin-top: 90px;*/
-
-}
-
 
 /*brand shop*/
 .brand_shop {
@@ -21,7 +16,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-    /*    outline: 2px solid lime;*/
     color: #fff;
 }
 
@@ -50,7 +44,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-    /*    outline: 2px solid lime;*/
 }
 
 .brand_lactofit_detail .detail_inner .detail_wrap .detail_img,
@@ -82,7 +75,6 @@ section {
 .brand_lactofit_detail .detail_inner .detail_wrap .detail_info .buy_btn {
     display: inline-block;
     margin-top: 40px;
-    /*    background-color: #00512a;*/
     border: 2px solid #00512a;
     color: #00512a;
     font-weight: bold;
@@ -203,7 +195,6 @@ section {
     float: left;
     width: 33.33%;
     text-align: center;
-    /*    outline: 2px solid blue;*/
     margin-top: 50px;
     overflow: hidden;
 

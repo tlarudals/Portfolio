@@ -2,10 +2,6 @@
 
 /*sub2_1_itall*/
 
-section {
-/*    margin-top: 90px;*/
-
-}
 
 
 /*brand shop*/
@@ -21,7 +17,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-/*    outline: 2px solid lime;*/
     color:#fff;
 }
 
@@ -51,7 +46,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-/*    outline: 2px solid lime;*/
 }
 
 .cf_inner>h2{
@@ -66,7 +60,6 @@ section {
     margin: 0 auto;
     margin-top: 40px;    
     width: 800px;
-/*    outline: 2px solid blue;*/
     
 }
 
@@ -87,7 +80,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-/*    outline: 2px solid red;*/
     
 }
 .re_inner .re_container_itall,
@@ -108,7 +100,6 @@ section {
 
 .re_container_itall .re_box_wrap_itall{
     margin-top: 30px;
-/*    outline: 2px solid lime;*/
 }
 .re_box_wrap_itall .re_box{
     float:left;
@@ -138,9 +129,7 @@ section {
     margin-left: 100px;
 }
 
-.re_prize_wrap .re_prize{
-/*    outline: 2px solid black;*/
-}
+
 
 
 .re_prize>div,
@@ -163,9 +152,8 @@ section {
 /*brand_menu*/
 .brand_menu{
     width: 100%;
-    height: 570px;
-    
-/*    outline: 2px solid blue;*/
+    height: 570px;   
+
 }
 
 .itall_bg{
@@ -177,7 +165,6 @@ section {
     width: 90%;
     max-width: 1280px;
     margin: 0 auto;
-/*    outline: 2px solid lime;*/
 }
 
 .menu_inner .menu_logo{
@@ -199,13 +186,10 @@ section {
 }
 
 .menu_inner .menu_container_itall{
-/*    outline: 2px solid lime;*/
     width: 530px;
     margin: 0 auto;
     margin-top:62px;
-    overflow: hidden;
-/*    overflow : hidden 현재 4개만 보여줌*/
-    
+    overflow: hidden;    
 }
 
 .menu_container_itall .menu_view{
@@ -215,19 +199,13 @@ section {
 
 .menu_container_itall .menu_view .menu_box{
     float:left;
-/*    outline: 2px solid blue;*/
 }
 
 .menu_box>a{
     display: block;
 }
 
-/*
-.menu_box>a:hover .menu_img_box{
-    transform: rotate(-15deg);
-    transition: all 0.7s;
-}
-*/
+
 
 .menu_box .menu_img_box{
     width: 265px;
@@ -259,7 +237,6 @@ section {
     padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
-/*    outline: 2px solid lime;    */
 }
 
 .pr_inner .pr_img_box{
@@ -267,7 +244,6 @@ section {
 }
 
 .pr_inner>h2{
-/*    outline: 2px solid lime;*/
     width: 963px;
     margin: 0 auto;
     margin-top: 30px;
@@ -277,8 +253,7 @@ section {
     font-size: 40px;
     border-top: 2px solid #ac8931;
     border-bottom: 2px solid #ac8931;
-    font-weight: 100;   
-        
+    font-weight: 100;           
 }
 
 .pr_inner .pr_container{
@@ -294,7 +269,6 @@ section {
 .pr_container .pr_box{
     float: left;
     width: 32%;
-/*    outline: 2px solid red;*/
 }
 .pr_container>div~div{
     margin-left: 2%;

@@ -2,9 +2,6 @@
 
 /*sub1_2*/
 
-section{
-/*    margin-top: 90px;*/
-}
 
 section .intro {
     width: 100%;
@@ -73,7 +70,6 @@ section .sub_menu {
     background: url(../img/sub1_1/choice.png) no-repeat;
     background-position: center bottom;
     font-weight: bold;
-/*    outline: 2px solid lime;*/
 }
 .sub_menu .sub_menu_inner div.on a{
     color:#00512a;
@@ -100,7 +96,6 @@ section .sub_menu {
     padding: 0 20px;
     box-sizing: border-box;    
     margin: 0 auto;
-/*    outline: 2px solid lime;    */    
 }
 
 
@@ -121,20 +116,17 @@ section .sub_menu {
 .management_txt_wrap .management_txt{
     width: 33.33%;
     float:left;
-/*    outline: 2px solid red;*/
 }
 .management_txt{
     margin-top: 40px;
     position: relative;
     padding-bottom: 20px;
-/*    outline: 2px solid lime;*/
 }
 
 .management_txt:after{
     content: "";
     display: block;
-    position: absolute;
-    
+    position: absolute;    
     width: 300px;
     height: 1px;
     background-color: #ccc;

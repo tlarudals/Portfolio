@@ -3,7 +3,6 @@
 /*sub3_1*/
 
 section {
-/*    margin-top: 90px;*/
     margin-bottom: 50px;
 }
 
@@ -51,43 +50,45 @@ section .sub_menu {
 
 }
 
-.sub_menu .sub_menu_inner .sub_menu_wrap{
+.sub_menu .sub_menu_inner .sub_menu_wrap {
     width: 640px;
     margin: 0 auto;
 }
 
 
-.sub_menu .sub_menu_inner .sub_menu_wrap div{
-    float:left;
+.sub_menu .sub_menu_inner .sub_menu_wrap div {
+    float: left;
     width: 320px;
     font-size: 20px;
     line-height: 70px;
-    position: relative;      
+    position: relative;
 }
-.sub_menu .sub_menu_inner div:after{
+
+.sub_menu .sub_menu_inner div:after {
     height: 42px;
     border: 1px solid gray;
     content: "";
     display: block;
     position: absolute;
-    left:320px;
-    top:50%;
+    left: 320px;
+    top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-.sub_menu .sub_menu_inner div:last-child:after{
+
+.sub_menu .sub_menu_inner div:last-child:after {
     content: none;
 }
 
-.sub_menu .sub_menu_inner div.on{
+.sub_menu .sub_menu_inner div.on {
     background: url(../img/sub1_1/choice.png) no-repeat;
     background-position: center bottom;
     font-weight: bold;
-/*    outline: 2px solid lime;*/
 }
-.sub_menu .sub_menu_inner div.on a{
-    color:#00512a;
+
+.sub_menu .sub_menu_inner div.on a {
+    color: #00512a;
 }
 
 .sub_menu .sub_menu_inner a:hover {
@@ -99,7 +100,7 @@ section .sub_menu {
 /*news*/
 .news {
     margin-top: 50px;
-    color:#333;
+    color: #333;
 }
 
 .news .news_inner {
@@ -110,46 +111,46 @@ section .sub_menu {
     margin: 0 auto;
 }
 
-.news_inner > h2 {
+.news_inner>h2 {
     font-size: 30px;
 }
 
-.news_inner form{
-    margin-top: 30px;    
+.news_inner form {
+    margin-top: 30px;
 }
 
-form{
+form {
     position: relative;
     height: 50px;
 }
 
 form .search_list,
-form button{
-    float:left;
-    
+form button {
+    float: left;
+
 }
 
-form .searchform{
+form .searchform {
     position: absolute;
-    right:100px;
+    right: 100px;
 }
 
 
-form input{  
+form input {
     width: 300px;
     height: 30px;
-    outline: none; 
+    outline: none;
     text-indent: 10px;
 }
 
-form button{
+form button {
     margin-top: 2px;
     margin-left: 10px;
     width: 70px;
     height: 30px;
 }
 
-form button:hover{
+form button:hover {
     cursor: pointer;
 }
 
@@ -158,10 +159,9 @@ form button:hover{
     margin-top: 70px;
     padding-bottom: 70px;
     border-bottom: 1px solid #eee;
-/*    outline: 2px solid lime;*/
 }
 
-.news_inner .news_container:last-child{
+.news_inner .news_container:last-child {
     border: 0;
 }
 
@@ -169,12 +169,12 @@ form button:hover{
     float: left;
 }
 
-.news_container .news_img img{
+.news_container .news_img img {
     width: 430px;
 
 }
 
-.news_container:hover .news_img img{
+.news_container:hover .news_img img {
     opacity: 0.4;
     -webkit-transition: all 1s;
     -ms-transition: all 1s;
@@ -187,7 +187,6 @@ form button:hover{
     float: left;
     margin-left: 100px;
     display: block;
-/*    outline: 2px solid red;*/
     width: 700px;
 }
 
@@ -202,8 +201,6 @@ form button:hover{
 }
 
 .news_box .news_title {
-/*        outline: 2px solid lime;*/
-/*    width: 600px;*/
     height: 40px;
     font-size: 26px;
     margin-top: 20px;
@@ -218,15 +215,11 @@ form button:hover{
 
 
 .news_box .news_txt {
-/*    width: 550px;*/
     font-size: 20px;
     margin-top: 10px;
-/*    outline: 2px solid blue;*/
     height: 120px;
     overflow: hidden;
-/*    white-space: nowrap;*/
     text-overflow: ellipsis;
-
 }
 
 .news_box:hover .news_txt {
@@ -239,17 +232,15 @@ form button:hover{
     height: 48px;
     margin-top: 50px;
     background: url(../img/sub3_1/arrow.png) no-repeat;
-/*    background-position: 0 -40px;*/
     position: relative;
-    left:0;
+    left: 0;
     -webkit-transition: all 0.8s;
     -ms-transition: all 0.8s;
     transition: all 0.8s;
 }
 
 .news_box:hover .news_arr>div {
-/*    background-position: 0 -40px;*/
-    left:600px;
+    left: 600px;
 }
 
 
@@ -262,27 +253,20 @@ form button:hover{
 
 
 
-.news_more{
+.news_more {
     text-align: center;
     margin-top: 130px;
     margin-bottom: 100px;
-/*    outline: 2px solid lime;*/
 }
 
-.news_more .news_more_btn{
+.news_more .news_more_btn {
     display: inline-block;
     padding: 10px 50px;
     border: 2px solid #00512a;
-    color:#00512a;
+    color: #00512a;
 }
 
-.news_more_btn:hover{
-    color:#fff;
+.news_more_btn:hover {
+    color: #fff;
     background-color: #00512a;
 }
-
-
-
-
-
-
