@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 70px;
+    padding-left:40px;
+    font-size:40px;
+}
+
+.agreement {
+    margin-top: 40px;
+    padding-left:40px;
+    margin-bottom: 40px;
+}
+
+.agreement_wrap table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.agreement_wrap th,
+.agreement_wrap td {
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+

@@ -1,0 +1,156 @@
+/*
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+*/
+
+
+
+
+
+
+
+
+/*footer*/
+footer {
+    width: 100%;
+    background-color: #000;
+}
+
+footer a {
+    color: #fff;
+    display: block;
+}
+
+footer .footer_inner {
+/*
+    width: 90%;
+    max-width: 1280px;
+*/
+    width: 100%;
+    max-width: 1320px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    /*    outline: 2px solid red;*/
+/*    padding: 30px 0;*/
+}
+
+.footer_inner .info {
+    float: left;
+}
+
+
+
+/*footer top*/
+.footer_inner .footer_top .info p {
+    float: left;
+    margin-right: 50px;
+}
+.info p a:hover{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.footer_inner .familysite {
+    float: right;
+    width: 310px;
+    /*    outline: 2px solid blue;*/
+}
+
+.familysite a {
+    color: #666;
+}
+
+.familysite a:hover {
+    color: #fff;
+}
+
+.familysite > p {
+    width: 290px;
+    padding: 0 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #646869;
+}
+
+.familysite > p > a {
+    color: #fff;
+    padding: 5px 0;
+    background: url(../img/main/footer_arr.png) no-repeat;
+    background-position: right 12px;
+}
+
+.familysite > .site_list {
+    width: 270px;
+    height: 150px;
+    padding: 20px;
+    background-color: #000;
+    display: none;
+    position: absolute;    
+    overflow-y: auto;    
+    
+    
+}
+
+.familysite > .site_list>li{
+/*    position: absolute;*/
+}
+
+.site_list .site {
+    padding-left: 10px;
+}
+
+
+/*footer_bottom*/
+footer .footer_inner .footer_bottom {
+    margin-top: 40px;
+    /*    outline: 2px solid lime;*/
+    color: #8f8f8f;
+    font-size: 14px;
+}
+
+.footer_bottom .footer_logo,
+.footer_bottom .footer_txt {
+    float: left;
+}
+
+.footer_txt {
+    margin-left: 30px;
+    margin-top: 12px;
+    line-height: 1.8;
+}
+
+.footer_bottom .safe_mark {
+    float: right;
+    margin-top: 36px;
+}
+
+.safe_mark div {
+    float: left;
+}
+
+.safe_mark div:nth-child(2) {
+    margin-left: 16px;
+}

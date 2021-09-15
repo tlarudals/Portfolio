@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+section{
+    margin-top: 100px;
+}
+
+.contribute{
+    width: 100%;
+}
+
+.contribute .contribute_inner{
+/*
+    width: 90%;
+    margin: 0 auto;
+*/
+}
+
+.contribute_inner .con_wrap{
+    margin-top: 50px;
+    padding-bottom: 20px;
+/*    outline: 2px solid lime;*/
+    border-bottom: 1px solid #eee;
+}
+
+.contribute_inner .con_wrap:last-child{
+    border: none;
+}
+
+
+.con_wrap .con_title{
+    font-size:22px;
+    font-size:1.375rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.con_wrap .con_img{
+    margin-top: 20px;
+}
+
+.con_img img{
+    width: 100%;
+}
+
+.con_wrap .con_txt{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.con_think{
+    margin-top: 40px;
+    background: url(../img/sub3_2/explain.jpg) no-repeat center/cover;
+    height: 300px;
+    position: relative;
+}
+
+.con_think .con_think_inner{
+    width: 93%;
+    height: 90%;
+    background-color: rgba(255,255,255,0.7);
+    position: absolute;
+    left:50%;
+    top:50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.con_think_inner>h3{
+    margin-top: 10px;
+}
+
+.con_think_inner>p{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

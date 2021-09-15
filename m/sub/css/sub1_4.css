@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+
+
+section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+    
+}
+
+
+/*location*/
+.location{
+    width: 100%;
+}
+
+.location .location_inner{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.location_inner .lo_btn_wrap{
+    margin-top: 30px;
+    font-size:14px;
+    font-size:0.875rem;
+    
+}
+
+
+.lo_btn_wrap .lo_btn{
+    width: 32%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+/*    outline: 2px solid lime;*/
+    border: 1px solid #eee;
+    float: left;
+/*    cursor: pointer;*/
+}
+
+.lo_btn~.lo_btn{
+    margin-left: 2%;
+}
+
+.lo_btn.on{
+    background-color: #77af9c;
+    color:#fff;
+}
+
+
+.location_inner .lo_map{
+    margin-top: 40px;
+    height: 400px;
+/*    outline: 2px solid lime;*/
+}
+
+.lo_map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+.location_inner .address{
+    margin-top: 40px;
+}
+
+.location_inner .tel{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

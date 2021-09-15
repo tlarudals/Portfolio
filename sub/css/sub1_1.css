@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+/*sub1_1*/
+
+
+/*intro*/
+section{
+/*    margin-top: 90px;*/
+}
+
+
+section .intro {
+    width: 100%;
+    height: 400px;
+    background: url(../img/sub1_1/company-1.jpg) no-repeat center;
+    background-size:cover;
+}
+
+.intro .intro_inner {
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    
+    
+    margin: 0 auto;
+    color: #fff;
+}
+
+.intro .intro_inner h2 {
+    padding-top: 140px;
+    font-size: 36px;
+}
+
+.intro .intro_inner p {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+
+
+
+/*sub menu*/
+section .sub_menu {
+    border-bottom: 5px solid #00512a;
+    text-align: center;
+    height: 70px;
+}
+
+.sub_menu .sub_menu_inner {
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+.sub_menu .sub_menu_inner div{
+    float:left;
+    width: 320px;
+    font-size: 20px;
+    line-height: 70px;
+    position: relative;      
+}
+.sub_menu .sub_menu_inner div:after{
+    height: 42px;
+    border: 1px solid gray;
+    content: "";
+    display: block;
+    position: absolute;
+    left:320px;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.sub_menu .sub_menu_inner div:last-child:after{
+    content: none;
+}
+
+.sub_menu .sub_menu_inner div.on{
+    background: url(../img/sub1_1/choice.png) no-repeat;
+    background-position: center bottom;
+    font-weight: bold;
+/*    outline: 2px solid lime;*/
+}
+.sub_menu .sub_menu_inner div.on a{
+    color:#00512a;
+}
+
+.sub_menu .sub_menu_inner a:hover {
+    color: #00512a;
+    font-weight: bold;
+}
+
+
+
+/*comapny_explain*/
+section .company_explain {
+    width: 100%;
+    height: 600px;
+    background: url(../img/sub1_1/ce_gb.jpg) no-repeat center;
+    background-size:cover;
+    margin-top: 20px;
+    /*    outline: 2px solid red;*/
+    opacity: 0;
+    -webkit-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+}
+
+.company_explain.on{
+    opacity: 1;
+}
+
+.company_explain .company_inner {
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: #333;
+    /*    outline: 2px solid lime;*/
+}
+
+.company_inner h2 {
+    padding-top: 120px;
+    box-sizing: border-box;
+    font-size: 30px;
+    opacity: 0;
+    -webkit-transition: all 1s 1s;
+    -ms-transition: all 1s 1s;
+    transition: all 1s 1s;
+}
+
+.company_inner h2.on{
+    opacity: 1;
+}
+
+.company_inner p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.8;
+    opacity: 0;
+    -webkit-transition: all 0.8s 2s;
+    -ms-transition: all 0.8s 2s;
+    transition: all 0.8s 2s;
+}
+
+.company_inner p.on{
+    opacity: 1;
+}
+
+
+/*safe product*/
+section .safe_product {
+    margin-top: 80px;
+    color:#333;
+}
+
+.safe_product .safe_product_inner {
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    /*    outline: 2px solid red;*/
+    position: relative;
+    top: 20px;
+    left: 0;
+
+}
+
+.safe_product_inner > p {
+    font-size: 30px;
+    line-height: 1.5;
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px);
+    -webkit-transition: all 1s;    
+    -ms-transition: all 1s;    
+    transition: all 1s;    
+}
+.safe_product_inner > p.on{
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.safe_product > img {
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+
+.safe_product .safe_box {
+    float: right;
+    width: 50%;
+    margin-top: -100px;
+    /*    outline: 2px solid lime;*/
+    background-color: rgba(255,255,255,0.7);
+    padding: 30px;
+
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px);
+    -webkit-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+    
+}
+.safe_product .safe_box.on{
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+
+
+.safe_product > .safe_box > span {
+    display: block;
+    font-size: 20px;
+}
+
+
+/*food safe*/
+section .food_safe {
+    width: 100%;
+    background-color: #e5f4f5;
+    margin-top: 80px;
+    color:#333;
+}
+
+.food_safe .food_safe_inner {
+    width: 100%;
+    max-width: 1320px;
+    padding: 50px 20px;
+    box-sizing: border-box;    
+    margin: 0 auto;
+}
+
+
+
+
+.fs_wrap .fs_img,
+.fs_wrap .fs_content,
+.fs_wrap .fs_txt {
+    float: left;
+}
+
+.fs_content {
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 100px;
+}
+
+.fs_content .fs_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fs_content .fs_abbreviation {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.fs_wrap .fs_txt {
+    margin-left: 20px;
+    border-left: 2px solid #333;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+.food_safe_inner .gap {
+    margin-top: 50px;
+}
+
+

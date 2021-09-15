@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+section{
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.earth_ex{
+    width: 100%;
+    background-color: #f2f5f6;
+    padding: 30px 0;
+}
+
+.earth_ex .earth_ex_inner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.earth_ex_inner>h2{
+    color:#ac8931;
+    font-weight: 100;
+}
+
+.earth_ex_inner>p{
+    margin-top: 20px;
+}
+
+.earth_ex_inner .ee_wrap{
+    margin-top: 30px;
+}
+.ee_wrap .ee_img{
+    text-align: center;
+}
+
+.ee_wrap .ee_title{
+    font-size:20px;
+    font-size:1.25rem;
+}
+
+.ee_title span{
+    font-size:16px;
+    font-size:1rem;
+}
+
+.ee_wrap .ee_txt{
+    margin-top: 14px;
+}
+
+
+
+
+.earth_product{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.earth_product .earth_product_inner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.earth_product_inner .ep_wrap{
+    text-align: center;
+}
+
+.ep_wrap .ep_box{
+    margin-top: 30px;
+    border: 2px solid #eee;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+
+
+.ee_promise{
+    margin-top: 100px;
+}
+
+.ee_promise .ee_promise_inner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ee_promise_inner .ee_pr_img{
+    text-align: center;
+}
+
+.ee_pr_img img{
+    width: 70px;
+}
+
+.ee_promise_inner .ee_pr_title{
+    color:#ac8931;
+    text-align: center;
+/*    outline: 2px solid lime;*/
+    padding: 10px 0;
+    border-top: 2px solid #ac8931;
+    border-bottom: 2px solid #ac8931;
+    font-size:20px;
+    font-size: 1.25rem;
+}
+
+
+.ee_promise_inner .pr_container{
+    margin-top: 30px;
+}
+
+.pr_container .pr_box{
+    margin-bottom: 30px;
+}
+.pr_box .pr_title{
+    color: #ac8931;
+    margin-bottom: 10px;
+}
+
+
+
+
+.brand_move_wrap{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.brand_move_wrap .move_btn{
+    background-color:#00512a;
+    color:#fff;
+    display: inline-block;
+    padding: 15px 60px;
+    border-radius: 100px;
+}
+
+
+

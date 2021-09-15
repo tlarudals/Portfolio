@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#333;
+}
+
+
+.privacy{
+/*    padding-left:40px;*/
+    margin-bottom: 40px;
+}
+
+.privacy .privacy_container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.privacy_title {
+    margin-top: 70px;
+    font-size:30px;
+    font-size:1.875rem;
+}
+
+.privacy_ex{
+    margin-top: 40px;
+}
+
+.cont_txt1{
+    line-height: 1.8;
+    color:#333;
+/*    font-size:18px;*/
+}
+.cont_txt2{
+    color:gray;
+    font-size:14px;
+    line-height: 1.8;
+}
+
+.board{
+    margin-top: 40px;
+    word-break: keep-all;
+}
+.board table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.board table tr,
+.board table td{
+    padding-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
